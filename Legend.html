@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>f1 Guide</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    h1 {
+      font-size: 55px;
+      text-align: center;
+      border-bottom: 1px solid gray;
+      margin: 0;
+      padding: 30px;
+    }
+
+    a {
+      color: black;
+      text-decoration: none;
+    }
+
+    .saw {
+      color: blueviolet;
+    }
+
+    .auto-wrap {
+      white-space: pre-line;
+      padding: 20px;
+    }
+
+    ol {
+      border-right: 1px solid gray;
+      width: 200px;
+      margin: 0;
+      padding: 20px 0 0 33px;
+    }
+
+    #grid {
+      display: grid;
+      grid-template-columns: 300px 1fr;
+    }
+
+    .driver {
+      margin-bottom: 30px;
+      border-bottom: 1px solid #ccc;
+      padding-bottom: 20px;
+    }
+
+    .driver img {
+      margin-top: 10px;
+      width: 200px;
+      border-radius: 8px;
+    }
+
+    #pagination {
+      text-align: center;
+      margin: 20px;
+    }
+
+    #pagination button {
+      margin: 0 5px;
+      padding: 5px 12px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+
+    #pagination button:hover {
+      background-color: #f0f0f0;
+    }
+
+
+  </style>
+</head>
+<body>
+  <a href="index.html" style="color:red"><h1>f1 Guide</h1></a>
+  <div id="grid">
+    <ol>
+      <li><h3><a href="History.html" class="saw">역사</a></h3></li>
+      <li><h3><a href="Rule.html" class="saw">일정진행</a></h3></li>
+      <li><h3><a href="Team.html" class="saw">현재 팀</a></h3></li>
+      <li><h3><a href="Circuit.html" class="saw">유명한 서킷들</a></h3></li>
+      <li><h3><a href="Legend.html" class="saw">레전드 선수들</a></h3></li>
+    </ol>
+    <div id="dirver-list" class="auto-wrap">
+      <div id="driver-anchor" style="height: 1px; margin: 0; padding: 0;"></div>
+      <!-- 드라이버 리스트 -->
+      <div class="driver">
+        <strong>1. 후안 마누엘 판지오</strong><br>
+        50년대 최고의 드라이버 (드라이버 챔피언 5회)
+        <img src="draiver/fangio.webp" alt="판지오">
+      </div>
+
+      <div class="driver">
+        <strong>2. 잭 브라밤</strong><br>
+        60년대 짐클락과 함께 전성기를 맞았던 드라이버 (드라이버 챔피언 3회) 
+        <img src="draiver/brabham.webp" alt="브라밤">
+      </div>
+
+      <div class="driver">
+        <strong>3. 짐 클락</strong><br>
+        브라밤과 마찬가지로 60년대를 지배했음 (드라이버 챔피언 2회)
+        <img src="draiver/Jim.webp" alt="짐 클락">
+      </div>
+
+      <div class="driver">
+        <strong>4. 재키 스튜어드</strong><br>
+        기술적 혁신을 가져온 70년대의 드라이버이자 팀 엔지니어 (드라이버 챔피언 3회)
+        <img src="draiver/jackie.webp" alt="재키">
+      </div>
+
+      <div class="driver">
+        <strong>5. 니키 라우다</strong><br>
+        죽을 뻔한 사고 이후 복귀한 페라리 전설 (드라이버 챔피언 3회)
+        <img src="draiver/niki.webp" alt="라우다">
+      </div>
+
+      <div class="driver">
+        <strong>6. 넬슨 피케</strong><br>
+        브라질리언 최초로 F1 트리플 크라운 달성 (드라이버 챔피언 3회)
+        <img src="draiver/nelson.webp" alt="피케">
+      </div>
+
+      <div class="driver">
+        <strong>7. 알랭 프로스트</strong><br>
+        멕라렌의 황금기를 이끈 인물 (드라이버 챔피언 4회)
+        <img src="draiver/frost.webp" alt="프로스트">
+      </div>
+
+      <div class="driver">
+        <strong>8. 아일톤 세나</strong><br>
+        역사상 가장 뛰어난 드라이버 중 한 명. 불운한 사고로 사망 (드라이버 챔피언 3회)
+        <img src="draiver/senna.webp" alt="세나">
+      </div>
+
+      <div class="driver">
+        <strong>9. 미카 하키넨</strong><br>
+        슈마허와 라이벌 구도를 형성한 90년대 최고의 드라이버 (드라이버 챔피언 2회)
+        <img src="draiver/mika.webp" alt="하키넨">
+      </div>
+
+      <div class="driver">
+        <strong>10. 미하엘 슈마허</strong><br>
+        베네통과 페라리에서 전설을 쓴 F1의 아이콘 (드라이버 챔피언 7회)
+        <img src="draiver/schumacher.webp" alt="슈마허">
+      </div>
+
+      <div class="driver">
+        <strong>11. 페르난도 알론소</strong><br>
+        20년간 현역을 유지한 최고의 베테랑 (드라이버 챔피언 2회)
+        <img src="draiver/alonso.webp" alt="알론소">
+      </div>
+
+      <div class="driver">
+        <strong>12. 세바스티안 베텔</strong><br>
+        레드불의 전성기를 이끈 드라이버 (드라이버 챔피언 4회)
+        <img src="draiver/vettel.webp" alt="베텔">
+      </div>
+
+      <div class="driver">
+        <strong>13. 루이스 해밀턴</strong><br>
+        2010년대 최고의 드라이버. 슈마허 이후 최다 기록 보유자 (드라이버 챔피언 7회)
+        <img src="draiver/hamilton.webp" alt="해밀턴">
+      </div>
+
+      <div class="driver">
+        <strong>14. 막스 베르스타팬</strong><br>
+        2020년대의 젊은 챔피언. 커리어 계속 상승 중 (드라이버 챔피언 4회)
+        <img src="draiver/max.webp" alt="막스">
+      </div>
+      <div id="pagination"></div>
+    </div>
+  </div>
+
+  <script>
+    const itemsPerPage = 5;
+    const drivers = document.querySelectorAll('.driver');
+    const totalPages = Math.ceil(drivers.length / itemsPerPage);
+    const pagination = document.getElementById('pagination');
+  
+    function showPage(page) {
+  drivers.forEach((driver, index) => {
+    driver.style.display = (index >= (page - 1) * itemsPerPage && index < page * itemsPerPage) ? 'block' : 'none';
+  });
+
+  // 페이지 버튼 다시 생성
+  pagination.innerHTML = '';
+  for (let i = 1; i <= totalPages; i++) {
+    const btn = document.createElement('button');
+    btn.innerText = i;
+    btn.onclick = () => {
+      showPage(i);
+
+      // 자연스럽게 스크롤 이동 (더 위로 올리기)
+      const anchor = document.getElementById('driver-anchor');
+      if (anchor) {
+        const offset = anchor.getBoundingClientRect().top + window.pageYOffset - 800; // 조절 가능
+        window.scrollTo({ top: offset, behavior: 'smooth' });
+      }
+    };
+    pagination.appendChild(btn);
+  }
+}
+
+    // 초기 페이지 설정
+    showPage(1);
+  </script>
+  
+</body>
+</html>
